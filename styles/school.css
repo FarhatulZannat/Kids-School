@@ -118,7 +118,18 @@ h4{
    .banner-img {
     border: 1px solid rgb(25, 182, 72); 
   } */
+
+
   
+  marquee{
+     color: orange;
+     background-color:skyblue;
+     padding: 5px 0;
+     font-family:"Quicksand", serif ;
+     font-weight: 500;
+     font-size: 1.5rem;
+     margin-top: 10px;
+    } 
   .banner{
       display: flex;    
       justify-content: space-between;
@@ -787,7 +798,7 @@ h4{
           /* footer style */
           .footer{
             padding: 0px;
-            height: 590px;
+            height: 680px;
             /* width: 425px;     */
           }              
           .footer-contain{
