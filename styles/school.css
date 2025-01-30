@@ -1,0 +1,812 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+/* shared styles */
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  /* padding: 15px 110px; */
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+
+/* navbar style */
+
+.navbar{
+     /* max-width: 1100px; */
+     margin:15px 109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*ekhne eta di nai tai btn center e astesilw na*/
+    gap: 180px;
+  }
+  .logo img{
+    height: 60px;   
+    width: 60px;
+  }
+h4{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin: auto 0;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .nav-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-decoration: none;
+  }
+  .nav-items a{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-decoration: none;
+  }
+
+.logo img{
+    height: 60px;   
+    width: 60px;
+  }
+h4{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black
+  }
+.btn{
+    width: 190px;
+    height: 50px;
+    font-family:"Quicksand", serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 12px;   
+  }
+  .btn:hover{
+    background-color:skyblue; 
+    color: rgb(64, 10, 163);
+    transform: scale(1.3);
+    border: 2px solid rgba(14, 14, 14, 0.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    } 
+.nav-item1 a{
+    color:rgba(254, 163, 1, 1) ;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+.nav-item2 a{
+    color:skyblue ;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+.nav-item3 a{
+    color:rgba(5, 212, 223, 1) ;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+.nav-item4 a{
+    color:rgba(93, 88, 239, 1) ;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+.menu-icon{
+    display: none;
+  }
+
+  /* banner styles */
+  /* .banner {
+    border: 1px solid red; 
+  }
+  .banner-contain {
+    border: 1px solid rgb(75, 18, 167); 
+  }
+   .banner-img {
+    border: 1px solid rgb(25, 182, 72); 
+  } */
+  
+  .banner{
+      display: flex;    
+      justify-content: space-between;
+      margin: 0 105px;
+      gap: 50px;
+      
+    } 
+    .banner-contain{
+      margin: 120px 0;
+    } 
+    .banner-contain p{
+      padding-left: 0px;
+    } 
+    #b1{
+      font-weight: bold;
+      font-size: 3.5rem;
+      color: orange;
+    } 
+    #b2{
+      font-weight: bold;
+      font-size: 3.6rem;
+      color: black;
+    } 
+    #b3{
+      font-weight: bold;
+      font-size: 3.8rem;
+      color: skyblue;
+    } 
+    .banner-btn{
+      width: 190px;
+    height: 50px;
+    font-family:"Quicksand", serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 12px;   
+    } 
+    .banner-btn:hover{
+      background-color:orange; 
+      color: rgb(64, 10, 163);
+      transform: scale(1.3);
+      border: 2px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      } 
+
+    /* cards style */
+    section{
+      background-image: url("../assets/bg.png");
+
+     } 
+    section h2{
+      font-weight: bold;
+      font-size: 2.8rem;
+     text-align: center;
+     padding-top: 60px;
+     margin-bottom: 80px;
+    } 
+    .cards{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 110px;
+      gap: 28px
+    } 
+    
+    
+    .card1{
+      border: 1px solid rgba(222, 245, 255, 1);
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 65px;
+      box-shadow: inset 0 60px 40px rgba(222, 245, 255, 1);
+    } 
+    .card1 a{
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      color: rgba(100, 200, 255, 1);
+    } 
+    .card2{
+      border: 1px solid rgba(255, 244, 220, 1);
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 65px;
+      box-shadow: inset 0 60px 40px rgba(255, 244, 220, 1);
+    } 
+    .card2 a{
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      color: rgba(240, 170, 0, 1)
+      } 
+    .card3{
+      border: 1px solid rgba(242, 232, 255, 1);
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 65px;
+      box-shadow: inset 0 60px 40px rgba(242, 232, 255, 1);
+    } 
+    .card3 a{
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      color:rgba(135, 0, 255, 1);
+      }
+      .card3 a:hover{
+        color: rgb(95, 11, 250);
+        transform: scale(1.1);
+        /* border: 2px solid rgba(14, 14, 14, 0.15); */
+      /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); */
+        }  
+    .arrow-btn{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 80px;
+      margin-bottom: 60px;
+      } 
+    .arrow-left, .arrow-right{
+      background-color: orange;
+      width: 60px;
+      height: 60px;
+      border: none;
+      border-radius: 50%;
+      color: white;
+      font-weight: bold;
+      font-size:1.5rem ;
+      } 
+    .arrow-left:hover{
+      background-color:aqua; 
+      color: rgb(64, 10, 163);
+      transform: scale(1.3);
+      border: 2px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      } 
+    .arrow-right:hover{
+      background-color: aqua; 
+      color: rgb(64, 10, 163);
+      transform: scale(1.3);
+      border: 2px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      } 
+
+      /* our story styles */
+
+ 
+     .stories{
+      margin-left: 110px;
+      margin-right: 110px;
+     
+
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(2,1fr);
+      gap: 12px;
+    } 
+     .bg-shadow{
+      /* background-image: url("../assets/bg.png"), linear-gradient(to top, rgba(254, 199, 111, 0.5), #FFFFFF 90%); */
+      background-image: url("../assets/bg.png"), linear-gradient(to top, rgba(255, 232, 193, 1), #FFFFFF 90%);
+      
+    } 
+     #story1{
+      background-color: white;
+      border-radius: 16px;
+      width: 500px;
+      height: 630px;
+         grid-row: 2 span;        
+         height: calc(200% / 2);
+         
+    } 
+     #story1 h4 ,p{
+     padding-left: 38px;
+    } 
+     #story1 img{
+      width: 500px;
+     border-top-left-radius: 16px;
+     border-top-right-radius: 16px;
+    } 
+     #story1 h4{
+     font-size: 1.5rem;
+     font-weight: bold;
+     margin-top: 58px;
+     margin-bottom: 47px;
+    } 
+     #story1 p{
+     font-size: 1rem;
+     font-weight: 500;
+    } 
+     #story1 button{
+     width: 174px;
+     height: 47px;
+     border: none;
+     border-radius: 47px;
+     background-color: rgba(60, 216, 232, 1);
+     color: white;
+     font-family:  "Raleway",serif;
+     font-weight: 500;
+     font-size: 1rem;
+     position: absolute;
+     left: 150px;
+     bottom: -1405px;
+    } 
+    
+     .story2{
+         background-color: white;
+         border-radius: 16px;
+         width: 291px;
+        height: 300px;    
+    } 
+     .story2 h4{
+      font-weight: bold; 
+      font-size: 1rem;
+      margin-left: 30px;        
+    } 
+    .story2 img{
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+     } 
+    .story2 button{
+      width: 174px;
+      height: 47px;
+      border: none;
+      border-radius: 47px;
+      background-color: rgba(93, 88, 240, 1);
+      color: white;
+      font-family:  "Raleway",serif;
+      font-weight: 500;
+      font-size: 1rem;
+      position: relative; 
+      right: -25px;
+      top: -30px; 
+     } 
+     .story3{
+         background-color: white;
+         border-radius: 16px;
+        width: 291px;
+        height: 301px;    
+    } 
+    .story3 h4{
+      font-weight: bold; 
+      font-size: 1rem;
+      margin-left: 30px;        
+    } 
+    .story3 img{
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+     } 
+    .story3 button{
+      width: 174px;
+      height: 47px;
+      border: none;
+      border-radius: 47px;
+      background-color: rgba(60, 216, 232, 1);
+      color: white;
+      font-family:  "Raleway",serif;
+      font-weight: 500;
+      font-size: 1rem;
+      position: relative; 
+      right: -25px;
+      top: -30px; 
+     } 
+     .story4{
+         background-color: white;
+         border-radius: 16px;
+        width: 291px;
+        height: 301px;    
+    } 
+    .story4 h4{
+      font-weight: bold; 
+      font-size: 1rem;
+      margin-left: 30px;        
+    } 
+    .story4 img{
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+     } 
+    .story4 button{
+      width: 174px;
+      height: 47px;
+      border: none;
+      border-radius: 47px;
+      background-color: rgba(149, 178, 38, 1);
+      color: white;
+      font-family:  "Raleway",serif;
+      font-weight: 500;
+      font-size: 1rem;
+      position: relative; 
+      right: -25px;
+      top: -30px; 
+     } 
+     .story5{
+         background-color: white;
+         border-radius: 16px;
+        width: 291px;
+        height: 301px;    
+    } 
+    .story5 h4{
+      font-weight: bold; 
+      font-size: 1rem;
+      margin-left: 30px;        
+    } .story5 img{
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+     } 
+    .story5 button{
+      width: 174px;
+      height: 47px;
+      border: none;
+      border-radius: 47px;
+      background-color: rgba(149, 178, 38, 1);
+      color: white;
+      font-family:  "Raleway",serif;
+      font-weight: 500;
+      font-size: 1rem;
+      position: relative; 
+      right: -25px;
+      top: -30px; 
+     } 
+    .story6 {
+       display: none;
+     }
+    
+    .story7 {
+       display: none;
+     } 
+     .story-btn{
+      margin: 90px 0 0 0;
+      text-align: center;
+      padding-bottom: 60px;
+    }
+     .story-btn button{
+      width: 137px;
+      height: 40px;
+      font-family:"Quicksand", serif;
+      font-size: 1.01rem;
+      font-weight: 600;
+      background-color: black;
+      color: white;
+    /* padding: 10px 10px; */
+    border: none;
+    border-radius: 12px;   
+    }
+
+    /* footer styles */
+    .footer{
+      background-color: #01ACFD;
+      padding:174px 140px ;
+      color: #FFFFFF;
+    }
+    .footer h1{
+      margin: 0px 0px;
+    }
+    .footer-contain{
+      width: 1000px;
+      height: 222px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 200px;
+    }
+    .footer-logos p{
+      padding-left: 0px;
+      
+      
+    }
+    
+    .footer-logo{
+      display: flex;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    /* .footer-logo img{
+      width: 80px;
+      margin-left: 0px;
+    } */
+    .footer-nav{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-left: 60px;  
+    }
+    
+    .footer-nav a{
+      text-decoration: none;
+      color: #FFFFFF;
+      
+    }
+    
+    
+
+
+
+
+  /* mobile device style */
+  @media screen and (max-width : 576px){
+    .logo h4{
+        display: none;
+      }
+    .nav-items{
+        display: none;
+      }
+    .btn{
+        display: none;
+      }
+    .menu-icon{
+        display: block;   
+      }    
+      /* header{
+        padding-right: 0px;     
+        padding-left: 0px;
+      }   */
+      .navbar{
+        margin: 0px;
+         padding: 10px 15px; /*navbar tar upore onk boror margin chilw oita ekhne komai disi */
+        gap: 0px;  /*---------here is the main prblm between 2 icons setup where i cant solve it 1st-------*/
+        border-bottom: 2px solid rgba(254, 163, 1, 1);
+        /* text-align: center; */
+       
+      }   
+      
+            
+    /* .mobile-nav{
+        display: flex;   
+        justify-content: space-between;  
+      }           */
+    .menu-icon img{
+        height: 60px;
+        width: 60px;     
+      }     
+      
+      /* banner */
+      .banner{
+        flex-direction: column-reverse;
+        margin: 8px 20px 0 20px;
+        gap: 0px;
+      } 
+      .banner-img img {
+        /*max-width: 100%; we can also this both are same*/
+        width: 100%;
+      }        
+      
+      .banner-contain{
+        text-align: center;
+        margin: 20px 0px;
+        
+      } 
+      .banner-des p{
+        text-align: center;
+        margin: 20px 0px;
+        width: 425px;
+      } 
+      #b1{
+        font-size: 2.5rem;
+      } 
+      #b2{
+        font-size: 2.5rem;
+      } 
+      #b3{
+        font-size: 2.5rem;
+      } 
+
+      /* standard curriculam */
+      section h2{  
+        font-size: 32px;
+       
+      } 
+      .cards{
+        flex-direction: column;
+        margin: 0 20px;
+        gap: 15px;
+             
+      } 
+      .card1 a{
+        margin-bottom: 36px;
+        } 
+      .card2 a{
+        margin-bottom: 36px;
+        } 
+      .card3 a{
+        margin-bottom: 36px;
+        } 
+        .arrow-btn{
+          display: none;   
+          } 
+          section h2{
+            text-align: center;
+            padding-top: 25px;
+            margin-bottom: 20px;
+           }
+
+
+           /* our story */
+           #story1{
+            display: none;              
+          } 
+           .stories{
+            grid-template-columns: repeat(2,1fr);
+            margin-left: 15px;
+            margin-right: 15px; 
+           
+          } 
+           .stories button{
+            width: 110px;
+            height: 35px;
+            font-size: 10px;
+          } 
+           .stories h4{
+            font-size: 10px;
+          } 
+           .story2{
+            width: 200px;
+            height: 240px;        
+          } 
+           .story2 img{
+            width: 200px;
+            height: 60%;        
+          } 
+           .story2 button{
+            position: relative;
+            top: -20px;
+                    
+          } 
+           .story2 h4{
+            margin-left: 0px;
+            padding-left: 20px;         
+          } 
+          .story3{
+            width: 200px;
+            height: 240px;        
+          } 
+           .story3 img{
+            width: 200px;
+            height: 60%;        
+          } 
+           .story3 button{
+            position: relative;
+            top: -20px;
+                    
+          } 
+           .story3 h4{
+            margin-left: 0px;
+            padding-left: 20px;         
+          } 
+          .story4{
+            width: 200px;
+            height: 240px;        
+          } 
+           .story4 img{
+            width: 200px;
+            height: 60%;        
+          } 
+           .story4 button{
+            position: relative;
+            top: -20px;
+                    
+          } 
+           .story4 h4{
+            margin-left: 0px;
+            padding-left: 20px;         
+          } 
+          .story5{
+            width: 200px;
+            height: 240px;        
+          } 
+           .story5 img{
+            width: 200px;
+            height: 60%;        
+          } 
+           .story5 button{
+            position: relative;
+            top: -20px;
+                    
+          } 
+           .story5 h4{
+            margin-left: 0px;
+            padding-left: 20px;         
+          } 
+          .story6{
+            display: block;
+            background-color: white;
+            border-radius: 16px;
+            width: 200px;
+            height: 240px;        
+          } 
+           .story6 img{
+            display: block;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+            width: 200px;
+            height: 60%;        
+          } 
+           .story6 button{
+            display: block;
+            position: relative;
+            top: -20px;
+            border: none;
+            border-radius: 47px;
+            background-color: rgba(93, 88, 240, 1);
+            color: white;
+            font-family: "Raleway", serif;
+            font-weight: 500;
+            right: -25px;
+                    
+          } 
+           .story6 h4{
+            display: block;
+            margin-left: 0px;
+            padding-left: 20px;         
+          } 
+          .story7{
+            display: block;
+            background-color: white;
+            border-radius: 16px;
+            width: 200px;
+            height: 240px;        
+          } 
+           .story7 img{
+            width: 200px;
+            height: 60%;  
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;      
+          } 
+           .story7 button{
+            position: relative;
+            top: -20px;
+            border: none;
+            border-radius: 47px;
+            background-color: rgba(60, 216, 232, 1);
+            color: white;
+            font-family: "Raleway", serif;
+            font-weight: 500;
+            right: -25px;
+                    
+          } 
+           .story7 h4{
+            margin-left: 0px;
+            padding-left: 20px;         
+          } 
+          /* .story-btn{
+            
+            text-align: center;
+            
+          } */
+
+          /* footer style */
+          .footer{
+            padding: 0px;
+            height: 590px;
+            /* width: 425px;     */
+          }              
+          .footer-contain{
+            display: flex;
+            flex-direction: column;
+            margin: 0 15px;
+            padding: 40px 0px;
+            gap: 20px;
+            /* width: 390px; */
+            
+          }   
+          .footer-logos p {
+            width: 280px;
+        }      
+          .footer-nav{
+            padding-left: 0px; 
+            width: 130px; 
+          }
+          .footer-logos{  
+            width: 360px; 
+          }
+          .footer-logo p{  
+            font-size: 16px;
+            width: 260px; 
+          }
+          .footer-media{
+            width: 190px; 
+          }
+          
+   }
