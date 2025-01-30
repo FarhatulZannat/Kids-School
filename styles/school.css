@@ -475,6 +475,14 @@ h4{
     border: none;
     border-radius: 12px;   
     }
+     .story-btn button:hover{
+      background-color: olivedrab;   
+      transform: scale(1.2);
+      border: 2px solid rgba(245, 241, 241, 0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      } 
+    
+
 
     /* footer styles */
     .footer{
